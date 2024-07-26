@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindscape</title>
+
+    <link rel="icon" href="./images/icons8-brain-emoji-96.png" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- nanum -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <!-- scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+        <div>
+
+            <img class="wave" src="./images/wave.svg" alt="wave">
+            <div class="container-fluid main-shadow">
+                <nav class="navbar navbar-expand-lg fixe-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="./images/favicon.svg" alt="logo" height="64px">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto gap-3">
+                                <li class="nav-item">
+                                    <a class="nav-link nbhome" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blogs.html">Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="http://mindscape.ml/category.php?i=1">Community</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="doctor.html">Find A Doctor</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container-fluid py-5">
+            <div class="row">
+                <div class="col-lg-7 col-12 hero-left" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="hero-heading">Mental Health</h1>
+                    <h1>
+                        <p href="#" class="typewrite" data-period="2000"
+                            data-type='[ "is a priority.",  "is as important as your Physical Health.", "needs your attention.", "matters." ]'>
+                            <span class="wrap"></span>
+                        </p>
+                    </h1>
+                    <p class="mt-3">A website curated to help you understand more about mental health issues and seek
+                        minimal help through our professionals.</p>
+
+
+                    <button class="p-3 get-started-btn" onclick="getStarted()">Get Started</button>
+
+                </div>
+                <div class="col-lg-5 col-12 ">
+                    <img class="mt-5 pt-5 hero-yoga" data-aos="fade-left" data-aos-duration="1000"
+                        src="./images/hero-yoga.svg" alt="yogaphoto" width="85%">
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- Our mission section -->
+    <section class="our-mission-box">
+        <div>
+            <div class="container-fluid p-5">
+
+                <div class="row">
+                    <div class="col-12 text-center" data-aos="zoom-in" data-aos-duration="1000">
+                        <h3>Our Mission</h3>
+                        <p>Mindscape's mission and goal is to provide basic help and assistance to people </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-12 text-center pt-4" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="https://www.helpguide.org/wp-content/uploads/hands-pink-background.png" alt=""
+                            width="150px">
+                        <h4>Educate & Empower</h4>
+                        <p>Have an understanding of some of the most common mental health problems</p>
+
+
+                    </div>
+                    <div class="col-lg-4 col-12 text-center pt-4" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="https://www.helpguide.org/wp-content/uploads/light-orange-background.png" alt=""
+                            width="150px">
+                        <h4>Helping Yourself</h4>
+                        <p>Uplift your mood so you can achieve optimal behaviour</p>
+                    </div>
+                    <div class="col-lg-4 col-12 text-center pt-4" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="
+                    https://www.helpguide.org/wp-content/uploads/Nonprofit-icon-home-page-ad-replacement.png" alt=""
+                            width="150px">
+                        <h4>Assist</h4>
+                        <p>Establish contact with a professional help if required</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <!-- <div>
+            <blockquote class="text-center m-5 p-5" data-aos="fade-up" data-aos-duration="1000">
+                <p id="quotation" class="quote-text"></p>
+                <footer>
+                    <p id="source" class="quote-auth"></p>
+                </footer>
+            </blockquote>
+
+        </div> -->
+    </section>
+
+
+
+    <!-- need for mental health article -->
+    <section class="need-for-mental-health">
+        <div class="container text-center mental-why" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="mental-heading">Why do we need to pay attention to mental health?</h2>
+            <p class="mt-5">Put a finger down if you've ever felt the low energy of your friend when they respond to
+                your messages.
+                Trust us; you're not alone.This pandemic outbreak was an enormous shock to everyone. A year has passed,
+                but people are still
+                adjusting to this setup. The pandemic forced us to keep our distance from our loved ones physically, and
+                the “distancing” accidentally happened emotionally and mentally.
+                Aside from taking care of our bodies, keeping our mental health in check is also essential. After all,
+                our brain is the cheerleader that can encourage us to keep on carrying on.</p>
+        </div>
+    </section>
+    <!-- video section -->
+    <!-- <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-7">
+                    <iframe width="100%" height="500px" src="https://www.youtube.com/embed?v=BpzVvUGfJeA"
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="col-5">
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- intros -->
+    <section class="about-page container mb-5 ">
+        <div class="blogs-intro mb-5">
+            <div class="row">
+                <div class="col-6">
+                    <img class="intro-images" data-aos="fade-right" data-aos-duration="1000" src="images/blogs-svg.svg"
+                        alt="blogs-svg" height="400px" />
+                </div>
+                <div class="col-lg-6 col-12 d-flex justify-content-center flex-column about-page-right align-items-center"
+                    data-aos="fade-left" data-aos-duration="1000">
+                    <h2 class="about-heading mb-3">Blog </h2>
+
+                    <p class="">
+                        Find various articles on the most common mental health issues such as stress, anxiety,
+                        depression and more.
+                    </p>
+                    <a href="blogs.html">
+                        <button class="intro-btn">Blogs</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="community-intro mt-5 mb-57">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex justify-content-center flex-column align-items-center"
+                    data-aos="fade-right" data-aos-duration="1000">
+
+                    <h2 class="about-heading mb-3">Community</h2>
+                    <p class="">
+                        Find people facing simiilar mental health issues and post your thoughts online.
+                    </p>
+                    <a href="http://mindscape.ml/category.php">
+                        <button class="intro-btn">Community</button>
+                    </a>
+
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img class="intro-images" data-aos="fade-left" data-aos-duration="1000"
+                        src="images/community-svg.svg" alt="community-image" height="400px" />
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="doctor-intro mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <img class="intro-images" data-aos="fade-left" data-aos-duration="1000" src="images/doctor-svg.svg"
+                        alt="dcotor" height="400px" />
+                </div>
+                <div class=" col-lg-6 col-12 d-flex justify-content-center flex-column about-page-right align-items-center"
+                    data-aos="fade-left" data-aos-duration="1000" height="">
+                    <h2 class="about-heading mb-3">Find A Doctor</h2>
+
+                    <p class="">
+                        Find nearby doctors and professionals if your condition is severe.
+                    </p>
+                    <button class="intro-btn">Find a doctor</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid footer-box pt-5 mt-5">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <img src="./images/favicon.svg" alt="logo" class="mx-5" height="56px">
+                </div>
+                <div class="col-lg-5 col-12">
+                    <h5>Our Socials</h5>
+                    <ul class="socials-list">
+                        <li><a href=""><img src="./images/email.png" alt="email" height="36px"
+                                    class="socials-logo my-3 px-3">Email Us</a></li>
+                        <li><a href=""><img src="./images/instagram.png" alt="instagram" height="36px"
+                                    class="socials-logo my-3 px-3">Follow Us</a></li>
+                        <li><a href=""><img src="./images/twitter.png" alt="twitter" height="36px"
+                                    class="socials-logo my-3 px-3">Follow Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-1 p-2"><button class="inline gobackup" onclick="goTop()"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-up" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                        </svg></button></div>
+
+            </div>
+            <span class="mx-5">Copyright © 2022 - Mindscape.com</span>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="/scirpt.js" type="text/javascript"></script>
+</body>
+
+</html>

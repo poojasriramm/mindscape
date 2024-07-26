@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --pink: #c36c89;
+    --white: #fff;
+}
+
+::selection {
+    color: white;
+    background: var(--pink);
+  }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #be748e #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #be748e;
+    border-radius: 0px;
+    border: 0px solid #ffffff;
+  }
+
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c36c89' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+    
+header{
+    z-index: 1;
+}
+.hero{
+    z-index: 2;
+}
+.nav-link{
+    font-weight: 500; 
+    font-size: 20px;
+    color: black;
+}
+
+.nav-link:hover{
+    color: var(--white);
+}
+
+/* .nav-link{
+    color: white;
+} */
+
+
+.navbar{
+    /* box-shadow: 0 2px 3px -2px rgba(0,0,0, 0.2); */
+    height: 60px;
+    margin-bottom: 1rem;
+    padding-inline: 5rem;
+    /* background-color: #EB8DAC; */
+    background-color: rgba(235, 141, 172, 0.7);
+    /* width: 100%; */
+}
+
+
+
+.hero{
+    z-index: 1209348239;
+}
+.hero-left{
+    padding: 180px 0px 50px 150px;
+}
+
+
+
+.hero-heading{
+    font-size: 64px;   
+    color: black;
+    font-weight: 600; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+.hero-text{
+    font-size: 64px;
+    color: var(--pink);
+    margin: 0;
+    padding: 0;
+}
+
+.get-started-btn{
+    width: 200px;
+    margin-top: 200px;
+    background-color: var(--pink);
+    border: 0px;
+    border-radius: 28px;
+    color: white;
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+.get-started-btn:hover{
+    background-color: #d8809d;
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0, 0.2);
+
+    
+
+}
+
+.wave{
+    z-index: -1;
+    position: absolute;
+    opacity: 100%;
+    
+}
+
+
+
+
+
+
+
+.typewrite{
+    color: var(--pink);
+}
+.feel-text{
+    font-weight: bolder;
+    
+}
+
+.emojis{
+    height: 90px;
+}
+
+.emo-btn{
+    padding: 10px;
+    height: auto;
+    border: none;
+    border-radius: 90px;
+    background-color: white
+    
+}
+
+.btn-name{
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.emo-btn:hover{
+    background-color: var(--pink);
+    transform: scale(1.4);
+    transition-duration: 400ms;
+    
+
+}
+
+.emoji-hover:hover{
+    -webkit-filter: invert(100%); 
+    filter: invert(100%);
+    
+    
+}
+
+.our-mission-box{
+    /* background-color: rgba(195, 108, 137,0.5); */
+    margin-top: 80px;
+    background-image: url("images/quotes-bg.svg");
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    
+    
+
+}
+
+.quote-box{
+    padding: 150px;
+    background-image: url("images/quotes-bg.svg");
+    background-position: center;
+    width: 100%;
+    
+    
+    
+}
+
+.quote-text{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.quote-auth{
+    font-size: 24px;
+}
+
+.mental-heading{
+    font-weight: 700;
+    ;
+    
+}
+
+
+.mental-why{
+    margin-top: 200px;
+    margin-bottom: 200px ;
+    padding-inline: 100px;
+    font-size: 20px;
+}
+
+
+
+.intro-btn{
+    padding: 15px 25px;
+    width: 150px;
+    background-color: var(--pink);
+    border: 0px;
+    border-radius: 28px;
+    color: white;
+
+}
+
+
+.intro-btn:hover{
+    background-color: #d8809d;
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0, 0.2);
+}
+
+
+.socials-list{
+    list-style: none;
+}
+
+
+
+
+
+
+
+footer a{
+    text-decoration: none;
+    color: black;
+    
+}
+footer a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-box{
+    background-color: #eb8dac;
+}
+
+
+.gobackup{
+    border: 0;
+    border-radius: 2rem;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    color: var(--pink);
+
+
+}
+
+.gobackup:hover{
+    
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+@media screen and (max-width: 768px) {
+
+        .need-for-mental-health{
+            width: 100%;
+        }
+        .wave{
+            display: none;
+            
+        }
+    
+        .hero-left{
+            padding: 50px 50px 0px 50px;
+        }
+    
+        .navbar{
+            padding-inline: 0;
+            background-color: transparent ;
+            
+            
+            
+       }
+       .nav-link{
+        color: var(--white);
+        
+       }
+    
+       .navbar-collapse{
+        background-color: rgba(195, 108, 137, 0.9);
+        z-index: 23428954857348535345;
+        width: 100%;
+        padding: 20px;
+        
+       }
+    
+       .hero-yoga{
+        display: none;
+       }
+    
+       .get-started-btn{
+        margin-top: 1rem;
+        padding: 0;
+       }
+    
+       .emojis{
+        
+        height: 50px;
+        
+        }
+
+        .emoji-box{
+            padding: 0;
+            margin-top: 0;
+        }
+
+
+        .intro-images{
+            display: none;
+        }
+      }
+
+     
